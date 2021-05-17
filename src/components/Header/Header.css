@@ -1,0 +1,25 @@
+.Header {
+  display: flex;
+  padding: 5px;
+}
+
+.Header * {
+  margin: 0;
+}
+
+.Logo {
+  /* margin-right: auto; */
+}
+
+.Right-Item {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.Login-Button {
+  margin-right: 5px;
+}
+
+.Signup-Button {
+}
