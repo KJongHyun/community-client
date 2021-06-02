@@ -1,0 +1,9 @@
+.LoginForm {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.LoginButton {
+  width: 100%;
+}

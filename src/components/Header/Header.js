@@ -1,13 +1,12 @@
 import React from 'react';
 import './Header.css';
 import { Button } from '@material-ui/core';
+import Logo from '../Base/Logo';
 
 const Header = () => {
   return (
     <div className='Header'>
-      <div className='Logo'>
-        <h2>BlahBlah Community</h2>
-      </div>
+      <Logo />
       <div className='Right-Item'>
         <div className='Login-Button'>
           <Button variant='contained' color='primary'>
