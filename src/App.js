@@ -12,7 +12,6 @@ function App() {
       <Route path='/' component={HomePage} exact />
       <Route path='/login' component={LoginPage} />
       <Route path='/signup' component={SignupPage} />
-      <Route path='/posts' component={PostPage} />
       <Route path='/write' component={WritePostPage} />
       <Route path='/post/:postId' component={PostPage} />
       <Route path='/list' component={PostListPage} />
